@@ -11,18 +11,18 @@ mouth crookedness level, and eye open/closed status, and then generate a yawning
 
 **Clone:**
 ```
-$ git clone https://github.com/Keyyi/Yawning-Animation-Synthesis-Tool.git
+git clone https://github.com/Keyyi/Yawning-Animation-Synthesis-Tool.git
 ```
 
 **Packages:**
 
 * Replace ```/Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy``` with the path of 'mayapy' executable for Maya 2022 on your laptop. 
 ```
-$ /Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy -m pip install -r requirements.txt
+/Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy -m pip install -r requirements.txt
 ```
 
 **Running:**
 
 * Change line 112 and 115 in MayaUI.py to the path of file ```code/model/eye_data.json``` and ```code/model/models.pickle```.
-* Open apple_face.md in Maya.
+* Open apple_face.md in Maya and set to 60 fps.
 * Copy the code from MayaUI.py to Maya python shell and execute!
