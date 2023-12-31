@@ -382,7 +382,7 @@ def create_ui():
     openness_value = cmds.floatSliderGrp(label='Mouth Open', field=True, minValue=0.0, maxValue=1.0, value=0.5, columnWidth=[(1, 300), (2, 100), (3, 100)])
 
     global duration_value
-    duration_value = cmds.floatSliderGrp(label='Duration in seconds', field=True, minValue=3, maxValue=7, value=5.5, columnWidth=[(1, 300), (2, 100), (3, 100)])
+    duration_value = cmds.floatSliderGrp(label='Duration in seconds', field=True, minValue=3, maxValue=7, value=5, columnWidth=[(1, 300), (2, 100), (3, 100)])
 
     global crookness_value
     crookness_value = cmds.floatSliderGrp(label='Mouth Crooked', field=True, minValue=0.0, maxValue=1.0, value=0.0, columnWidth=[(1, 300), (2, 100), (3, 100)])
