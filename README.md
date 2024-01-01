@@ -16,10 +16,10 @@ git clone https://github.com/Keyyi/Yawning-Animation-Synthesis-Tool.git
 
 **Packages:**
 
-* Replace ```/Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy``` with the path of 'mayapy' executable for Maya 2022 on your laptop.
 ```
 cd Yawning-Animation-Synthesis-Tool
 ```
+* Replace ```/Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy``` with the path of 'mayapy' executable for Maya 2022 on your laptop.
 ```
 /Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy -m pip install -r requirements.txt
 ```
