@@ -27,5 +27,5 @@ cd Yawning-Animation-Synthesis-Tool
 **Running:**
 
 * Change line 112 and 115 in MayaUI.py to the path of file ```code/model/eye_data.json``` and ```code/model/models.pickle```.
-* Open apple_face.md in Maya and set to 60 fps.
+* Open ```code/apple_face.md``` in Maya and set to 60 fps.
 * Copy the code from MayaUI.py to Maya python shell and execute!
