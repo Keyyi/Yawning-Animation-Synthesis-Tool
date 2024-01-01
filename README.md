@@ -22,10 +22,11 @@ cd Yawning-Animation-Synthesis-Tool
 * Replace ```/Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy``` with the path of 'mayapy' executable for Maya 2022 on your laptop.
 ```
 /Applications/Autodesk/maya2022/Maya.app/Contents/bin/mayapy -m pip install -r requirements.txt
+* Restart Maya to make sure all packages are successfully installed.
 ```
 
 **Running:**
 
 * Change line 112 and 115 in MayaUI.py to the path of file ```code/model/eye_data.json``` and ```code/model/models.pickle```.
 * Open ```code/apple_face.md``` in Maya and set to 60 fps.
-* Copy the code from MayaUI.py to Maya python shell and execute!
+* Copy the code from ```code/MayaUI.py``` to Maya python shell and execute!
